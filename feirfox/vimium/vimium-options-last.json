@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.65.2",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n#map <c-v> scrollFullPageDown\n#map <a-v> scrollFullPageUp\nmap <c-d> scrollFullPageDown\nmap <c-u> scrollFullPageUp\nmap H previousTab\nmap L nextTab\nmap zb goBack\nmap zf goForward\nmap gH firstTab\nmap gL lastTab\nmap gboo   createTab chrome-extension://dbepggeogbaibhgnhhndojpepiihcmeb/pages/options.html\nmap ghl goForward\nmap ghh goBack\n\nmap gbys   createTab https://www.youtube.com/feed/subscriptions",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\nr:  https://rutracker.org/forum/tracker.php?nm=%s\nf: http://flibusta.is/booksearch?ask=%s\nv: https://vsetop.org/?story=%s\ns: https://www.skidrowreloaded.com/?s=%s&x=0&y=0https://www.skidrowreloaded.com/?s={searchTerms}&x=0&y=0\ni: http://igg-games.com/?s=%s\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\ngwoe: https://www.google.com/search?q=%s watch online\ngwo: https://www.google.com/search?q=%s смотреть онлаин\ngs: https://www.google.com/search?q=%s site:{hostname}\ngw: https://www.google.com/search?q=%s wikipedia\n\nte: https://translate.google.com/#en/ru/%s\ntr: https://translate.google.com/#view=home&op=translate&ru=auto&tl=en&text=%s\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: https://www.youtube.com/results?searcwh_query=%s Youtube\nyr: https://www.youtube.com/results?searcwh_query=%s review Youtube\ngm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
